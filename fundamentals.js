@@ -35,3 +35,7 @@ console.log("It is a " + aCar.color.exterior + " car, " +
 
 console.log("First owner: " + aCar.previous_owners[0].name +
   ' - ' + aCar.previous_owners[0].address)
+
+for (let i = 0; i < aCar.previous_owners.length; i += 1) {
+  console.log(aCar.previous_owners[i].name)
+}
