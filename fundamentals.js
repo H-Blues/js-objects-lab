@@ -32,3 +32,6 @@ aCar.color = {
 
 console.log("It is a " + aCar.color.exterior + " car, " +
   aCar.mileage + " mileage, with " + aCar.color.interior.texture + " interior.")
+
+console.log("First owner: " + aCar.previous_owners[0].name +
+  ' - ' + aCar.previous_owners[0].address)
